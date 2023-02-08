@@ -47,7 +47,7 @@ public class JwtProvider {
    } catch (MalformedJwtException e){
    logger.error("Token mal formado");
    } catch (UnsupportedJwtException  e){
-   logger.error("Toekn no soportado");
+   logger.error("Token no soportado");
    } catch (ExpiredJwtException  e){
    logger.error("Token expirado");
    }catch (IllegalArgumentException  e){
