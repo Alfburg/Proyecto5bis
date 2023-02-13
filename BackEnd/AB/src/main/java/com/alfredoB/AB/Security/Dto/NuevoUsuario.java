@@ -12,13 +12,13 @@ import java.util.Set;
  * @author 54911
  */
 public class NuevoUsuario {
-    private String nombre;
+  private String nombre;
     private String nombreUsuario;
     private String email;
     private String password;
     private Set<String> roles = new HashSet<>();
-    
-    //Getter and Setter
+
+    //Gettes & Setters
 
     public String getNombre() {
         return nombre;

@@ -9,9 +9,9 @@ package com.alfredoB.AB.Security.Controller;
  * @author 54911
  */
 public class Mensaje {
-    private String mensaje;
-    
-    //constructor
+      private String mensaje;
+
+    //Constructor
 
     public Mensaje() {
     }

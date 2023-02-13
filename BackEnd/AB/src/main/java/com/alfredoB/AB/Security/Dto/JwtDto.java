@@ -12,11 +12,11 @@ import org.springframework.security.core.GrantedAuthority;
  * @author 54911
  */
 public class JwtDto {
-    private String token;
+     private String token;
     private String bearer = "Bearer";
     private String nombreUsuario;
     private Collection<? extends GrantedAuthority> authorities;
-    
+
     //Constructor
 
     public JwtDto(String token, String nombreUsuario, Collection<? extends GrantedAuthority> authorities) {
@@ -24,7 +24,8 @@ public class JwtDto {
         this.nombreUsuario = nombreUsuario;
         this.authorities = authorities;
     }
-    //Getter and Setter
+
+    //Getters and Setters
 
     public String getToken() {
         return token;
